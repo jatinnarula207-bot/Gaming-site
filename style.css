@@ -1,0 +1,70 @@
+body{
+    background-color:rgb(178, 25, 25)
+}
+.img1{
+    width:4rem;
+    border-radius:15px;
+    margin-left:8px;
+}
+.navbar{
+    background-color:black ;
+}
+.navbar-nav a{
+    color:white;
+}
+.navbar-nav a:hover{
+    color:rgba(243, 86, 86, 0.916);
+}
+.d-flex .btn:hover{
+    background-color:rgba(243, 86, 86, 0.916);
+    color:white;
+}
+.d-flex{
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;
+}
+.card{
+    background-color: black;
+    transition: all 0.3s ease;
+    border:2px solid #660708;
+}
+.card-body{
+    background-color: #161A1D;
+    color:#E5383B;
+    margin-top:2px;
+    border-radius:5px;
+}
+.card-body p{
+    margin-bottom:5px;
+}
+.wrap{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+.card:hover{
+    transform:scale(1.05);
+    box-shadow: 5px 6px 10px #161A1D;
+    opacity:0.85;
+}
+.wrap2{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+.wrap2 .card-body .line{
+    text-decoration: line-through;
+}
+.footer{
+    background-color: black;
+    color:#E5383B;
+    height:70px;
+    text-align:center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:20px 10px  0px 10px;
+    border-radius: 5px; 
+}
+
